@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import SearchBar from "../components/SearchBar";
 
 export default function Home() {
   return (
@@ -11,10 +12,12 @@ export default function Home() {
     >
       <Header />
 
-      <div style={{ padding: "20px" }}>
-        <h1>Bem-vindo ao KEOPS</h1>
+      <SearchBar />
 
-        <p>O marketplace inteligente está começando...</p>
+      <div style={{ padding: "20px" }}>
+        <h2>Bem-vindo ao KEOPS</h2>
+
+        <p>O marketplace inteligente do futuro.</p>
       </div>
     </main>
   );
